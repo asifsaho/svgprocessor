@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVG Processor</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="node_modules/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<nav class="nav">
+		<div class="container">
+			<ul>
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Github Source</a></li>
+				<li><a href="#" class="nav-item-icon bugicon">Report a Bug</a></li>
+				<li><a href="#">Credits</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="max-width-one-third">
+				<label class="display-block">
+					<span>Paste your svg content here</span>
+					<textarea id="raw-svg" class="form-control rawsvgcode" name="" id="" cols="30" rows="10" value=""></textarea>
+				</label>
+			</div>
+			<div class="max-width-one-third">
+				<label class="display-block">
+					<span>CSS Ready SVG is here</span>
+					<div id="cssreadysvg" class="cssreadysvg"><code class="css"></code></div>
+					<textarea id="cssreadysvgoninput" class="cssreadysvgoninput"></textarea>
+				</label>
+			</div>
+			
+			<div id="svgdisplay" class="svgdisplay max-width-one-third">
+				<p>Preview of your SVG</p>
+				<div></div>
+				<button id="copyBtn" class="btn">Copy CSS Code</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="footnote">
+				<p>This is a opensource project under MIT Lisence and maintained by asifsaho.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

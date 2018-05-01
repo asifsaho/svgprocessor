@@ -11,6 +11,11 @@ body {
 	background-color: #2980b9;
 }
 
+h1 {
+	color: #b0d6ef;
+	font-size: 24px;
+}
+
 .nav {
 	background-color: #338ac3;
 	margin-top: 0;
@@ -78,6 +83,11 @@ label span {
 	display: block;
 	color: #b0d6ef;
 	margin: 0 0 15px 0;
+	line-height: 1.4em;
+}
+
+a {
+	color: #9fd3f5;
 }
 
 .display-block {
@@ -128,6 +138,10 @@ textarea:focus {
 	width: 100%;
 	margin-top: 20px;
 	text-align: center;
+}
+
+.footnote p {
+	margin: 0;
 }
 
 .max-width-one-third {

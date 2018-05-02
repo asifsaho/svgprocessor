@@ -171,3 +171,19 @@ textarea:focus {
     left: 0;
     z-index: -1;
 }
+
+
+.thik-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.thik-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(1,1,1,.4);
+    border-radius: 20px;
+}
+
+.thik-scrollbar::-webkit-scrollbar-track {
+    background: rgba(256,256,256,.6);
+    border-radius: 20px;
+}

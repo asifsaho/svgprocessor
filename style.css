@@ -45,7 +45,7 @@ h1 {
 }
 
 li a.nav-item-icon {
-	background-size: 16px;
+    background-size: 16px;
     background-position: 16px 13px;
     padding-left: 40px;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-color: #2980b9;
-    background-size: 85%;
+      background-size: 85% 100%;
 }
 
 textarea {
